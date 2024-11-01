@@ -7,7 +7,6 @@
 body {
   display: flex;
   flex-direction: column;
-  height: 100vh;
   align-items: center;
 }
 
@@ -74,10 +73,11 @@ body {
 .hero-button {
   background-color: orange;
   font-weight: 700;
-  border: 1px solid white;
+  border: 0px solid white;
   border-radius: 2px;
   padding: 5px 25px;
   margin-top: 15px;
+  color: white;
 }
 
 .hero-img {
@@ -85,9 +85,8 @@ body {
   width: 400px;
 }
 
-.hero-img,
 .hero-text {
-  flex-shrink: 0;
+  flex: 1 0 0;
 }
 
 /* HERE FINISHES THE CSS RELATED TO HEADER AND HERO */
@@ -95,7 +94,7 @@ body {
 /* HERE STARTS THE SECOND BACKGROUND CSS */
 
 .second-background {
-  padding-top: 25px;
+  padding: 50px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -138,7 +137,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 50px;
+  padding: 150px 0;
   width: 100%;
 }
 
@@ -201,3 +200,15 @@ body {
   border-radius: 2px;
 }
 /* HERE FINISHES THE FOURTH BACKGROUND CSS */
+
+/* HERE STARTS THE FOOTER CSS */
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  width: 100%;
+  height: 60px;
+}
