@@ -26,7 +26,7 @@ body {
   justify-content: space-between;
   padding: 10px;
   align-items: center;
-  width: 60%;
+  width: 70%;
   margin-bottom: 50px;
 }
 
@@ -50,7 +50,7 @@ body {
 
 .hero {
   display: flex;
-  width: 60%;
+  width: 70%;
   justify-content: space-between;
   align-items: center;
   padding-bottom: 50px;
@@ -59,6 +59,8 @@ body {
 
 .hero-text {
   color: orange;
+  width: 300px;
+  flex-shrink: 0;
 }
 
 .hero-text .hero-bigger {
@@ -79,4 +81,46 @@ body {
   margin-top: 15px;
 }
 
+.hero-img {
+  flex-shrink: 0;
+}
+
 /* HERE FINISHES THE CSS RELATED TO HEADER AND HERO */
+
+/* HERE STARTS THE SECOND BACKGROUND CSS */
+
+.second-background {
+  padding-top: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 35px;
+}
+
+.info-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  width: 70%;
+  flex-wrap: wrap;
+}
+
+.info-paragraph {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.info-card img {
+  border: 1px solid black;
+  border-radius: 10px;
+  height: 150px;
+  width: 200px;
+}
+
+.info-card p {
+  text-align: center;
+  width: 200px;
+}
+
+/* HERE FINISHES THE SECOND BACKGROUND CSS */
