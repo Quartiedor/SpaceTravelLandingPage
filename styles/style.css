@@ -75,7 +75,7 @@ body {
   background-color: orange;
   font-weight: 700;
   border: 1px solid white;
-  border-radius: 10%;
+  border-radius: 2px;
   padding: 5px 25px;
   margin-top: 15px;
 }
@@ -139,6 +139,7 @@ body {
   flex-direction: column;
   align-items: center;
   padding: 50px;
+  width: 100%;
 }
 
 .third-content {
@@ -159,3 +160,44 @@ body {
 }
 
 /* HERE FINISHES THE THIRD BACKGROUND CSS */
+
+/* HERE STARTS THE FOURTH BACKGROUND CSS */
+
+.fourth-background {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.call-to-action {
+  display: flex;
+  background-color: black;
+  border-radius: 5px;
+  padding: 25px 50px;
+  color: white;
+  width: 70%;
+  margin: 50px 0;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.call-to-action-text {
+  width: 60%;
+}
+
+.call-to-action-title {
+  font-weight: 900;
+  font-size: 25px;
+  margin-bottom: 5px;
+}
+
+.call-to-action-button {
+  padding: 5px 25px;
+  background-color: orange;
+  color: white;
+  font-weight: bold;
+  border: 1px solid white;
+  border-radius: 2px;
+}
+/* HERE FINISHES THE FOURTH BACKGROUND CSS */
