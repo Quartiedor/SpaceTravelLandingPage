@@ -60,7 +60,6 @@ body {
 .hero-text {
   color: orange;
   width: 300px;
-  flex-shrink: 0;
 }
 
 .hero-text .hero-bigger {
@@ -82,6 +81,12 @@ body {
 }
 
 .hero-img {
+  height: 200px;
+  width: 400px;
+}
+
+.hero-img,
+.hero-text {
   flex-shrink: 0;
 }
 
@@ -101,9 +106,10 @@ body {
 .info-container {
   display: flex;
   justify-content: space-between;
-  gap: 30px;
+  align-items: baseline;
   width: 70%;
   flex-wrap: wrap;
+  margin-bottom: 60px;
 }
 
 .info-paragraph {
@@ -124,3 +130,32 @@ body {
 }
 
 /* HERE FINISHES THE SECOND BACKGROUND CSS */
+
+/* HERE FINISHES THE THIRD BACKGROUND CSS */
+
+.third-background {
+  background-color: darkorange;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+}
+
+.third-content {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+}
+
+.quote-text {
+  font-style: italic;
+  font-size: 25px;
+}
+
+.third-content .quote-owner {
+  align-self: flex-end;
+}
+
+/* HERE FINISHES THE THIRD BACKGROUND CSS */
